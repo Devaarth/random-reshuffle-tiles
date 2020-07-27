@@ -1,0 +1,136 @@
+@media only screen and (min-width:375px) {
+    #main-heading {
+        text-align: center;
+        font-weight: bold;
+    }
+    .container {
+        display: flex;
+    }
+    .tiles-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 75%;
+    }
+    .font-size-mega {
+        font-size: 1000%;
+        color: #FFFFFF;
+    }
+    .common-container {
+        width: 100%;
+        height: 200px;
+        flex-basis: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #caption-text {
+        padding-top: 2%;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+    }
+    .btn-shuffle-sort {
+        text-align: center;
+        background-color: #6F98A8;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 5px #2B8EAD;
+        outline: none;
+        cursor: grab;
+        padding: 10px 100px;
+    }
+    #btn-sort {
+        padding: 10px 35px;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:374px) {
+    #main-heading {
+        text-align: center;
+        background-color: rgb(53, 52, 52);
+        color: white;
+        margin: 0;
+        padding: 20px 0 20px 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tiles-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .font-size-mega {
+        font-size: 100%;
+        color: #FFFFFF;
+    }
+    .common-container {
+        width: 100%;
+        text-align: center;
+        padding: 4% 0px;
+    }
+    #caption-text {
+        padding-top: 2%;
+    }
+    .button-container {
+        margin: 10% 0 15% 0;
+        text-align: center;
+    }
+    .btn-shuffle-sort {
+        background-color: #6F98A8;
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 5px #2B8EAD;
+        outline: none;
+        cursor: grab;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    #btn-sort {
+        padding: 10px 35px;
+    }
+}
+
+#container1 {
+    background-color: #6F98A8;
+}
+
+#container2 {
+    background-color: #2B8EAD;
+}
+
+#container3 {
+    background-color: #2F454E;
+}
+
+#container4 {
+    background-color: #2B8EAD;
+}
+
+#container5 {
+    background-color: #2F454E;
+}
+
+#container6 {
+    background-color: #BFBFBF
+}
+
+#container7 {
+    background-color: #EFEFEF;
+}
+
+#container8 {
+    background-color: #6F98A8;
+}
+
+#container9 {
+    background-color: #2F454E;
+}
